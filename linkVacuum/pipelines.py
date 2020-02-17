@@ -6,6 +6,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class LikvacuumPipeline(object):
+class LinkVacuumPipeline(object):
     def process_item(self, item, spider):
         return item

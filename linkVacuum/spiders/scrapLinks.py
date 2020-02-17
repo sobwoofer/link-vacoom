@@ -3,8 +3,8 @@ import scrapy
 from urllib.parse import urljoin
 
 
-class PycoderSpider(scrapy.Spider):
-    name = "likVacuum"
+class LinkVacuumSpider(scrapy.Spider):
+    name = "linkVacuum"
     start_urls = [
         'http://pycoder.ru/?page=1',
     ]

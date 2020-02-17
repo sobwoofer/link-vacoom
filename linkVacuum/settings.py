@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for likVacuum project
+# Scrapy settings for LinkVacuum project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'likVacuum'
+BOT_NAME = 'linkVacuum'
 
-SPIDER_MODULES = ['likVacuum.spiders']
-NEWSPIDER_MODULE = 'likVacuum.spiders'
+SPIDER_MODULES = ['linkVacuum.spiders']
+NEWSPIDER_MODULE = 'linkVacuum.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
