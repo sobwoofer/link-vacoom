@@ -8,7 +8,7 @@
 import scrapy
 
 
-class LikvacuumItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class LinkvacuumItem(scrapy.Item):
+    title = scrapy.Field()
+    body = scrapy.Field()
+    date = scrapy.Field()
